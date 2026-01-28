@@ -60,9 +60,15 @@ main h1{
 }
 
 main article{
+    float: left;
+    margin-right: 5%;
     width: 30%;
     background: #57C785;
     height: 200px;
+}
+
+main article:last-child{
+    margin-right: 0;
 }
 
 article p{
