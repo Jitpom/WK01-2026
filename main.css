@@ -1,9 +1,10 @@
-body{
+body {
     margin: 0;
     padding: 0;
-    font-family: Poppins, sans-serif;   
+    font-family: Poppins, sans-serif;
     box-sizing: border-box;
-    font-size: 16px; /*Base font size*/
+    font-size: 16px;
+    /*Base font size*/
 }
 
 
@@ -51,21 +52,22 @@ header {
 
 .primary-button:hover {
     background: #2d2d2d;
-    color: white;  /*Text color*/
+    color: white;
+    /*Text color*/
 }
 
-main{
+main {
     padding: 32px;
     width: 100%;
     box-sizing: border-box;
-    height: 400px;
+    /* height: 400px; */
 }
 
-main h1{
+main h1 {
     text-align: center;
 }
 
-main article{
+main article {
     float: left;
     margin-right: 5%;
     width: 30%;
@@ -75,19 +77,18 @@ main article{
     box-sizing: border-box;
 }
 
-main article:last-child{
+main article:nth-child(4) {
     margin-right: 0;
-    clear: right;
 }
 
 
-article p{
+article p {
     text-align: center;
     line-height: 100px;
     font-weight: 900;
 }
 
-.box-button{
+.box-button {
     background: white;
     width: 100px;
     margin: 0 auto;
@@ -95,31 +96,32 @@ article p{
     border-radius: 8px;
 }
 
-.box-button p{
-    text-align: center;    
+.box-button p {
+    text-align: center;
     cursor: pointer;
     line-height: normal;
 }
 
 .box-button:hover {
     background: #2d2d2d;
-    color: white;  /*Text color*/
+    color: white;
+    /*Text color*/
 }
 
-footer{
+footer {
     clear: both;
     width: 100%;
     margin: 0 auto;
     box-sizing: border-box;
-    padding: 32px;    
+    padding: 32px;
     background-color: #2d2d2d;
 }
 
-footer article{
+footer article {
     background-color: #2A7B9B;
 }
 
-footer .box1{
+footer .box1 {
     box-sizing: content-box;
     width: 50%;
     background-color: white;
@@ -127,11 +129,20 @@ footer .box1{
     border: 5px solid maroon;
 }
 
-footer .box2{
+footer .box2 {
     margin-top: 8px;
     box-sizing: border-box;
     width: 50%;
     /* background-color: white; */
     padding: 0px 48px;
     border: 5px solid maroon;
+}
+
+article p {
+    color: blueviolet;
+}
+
+.clearfix {
+    clear: both;
+    box-sizing: border-box;
 }
