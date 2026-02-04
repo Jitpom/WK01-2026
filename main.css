@@ -115,6 +115,10 @@ footer{
     background-color: #2d2d2d;
 }
 
+footer article{
+    background-color: #2A7B9B;
+}
+
 footer .box1{
     box-sizing: content-box;
     width: 50%;
@@ -127,7 +131,7 @@ footer .box2{
     margin-top: 8px;
     box-sizing: border-box;
     width: 50%;
-    background-color: white;
+    /* background-color: white; */
     padding: 0px 48px;
     border: 5px solid maroon;
 }
