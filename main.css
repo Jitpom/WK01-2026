@@ -3,12 +3,13 @@ body{
     padding: 0;
     font-family: Poppins, sans-serif;   
     box-sizing: border-box;
+    font-size: 16px; /*Base font size*/
 }
 
 
 header {
     width: 100%;
-    height: 600px;
+    height: 90vh;
     background: #2A7B9B;
     background: linear-gradient(180deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 63%, rgba(237, 221, 83, 1) 100%);
     padding: 16px;
@@ -19,7 +20,7 @@ header {
     color: white;
     font-family: "Poppins", sans-serif;
     font-weight: 900;
-    font-size: 96px;
+    font-size: 6rem;
     font-style: normal;
     margin-bottom: 0px;
     text-align: center;
@@ -107,13 +108,16 @@ article p{
 
 footer{
     clear: both;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
     padding: 32px;    
     background-color: #2d2d2d;
 }
 
 footer .box1{
     box-sizing: content-box;
-    width: 300px;
+    width: 50%;
     background-color: white;
     padding: 0px 48px;
     border: 5px solid maroon;
@@ -122,7 +126,7 @@ footer .box1{
 footer .box2{
     margin-top: 8px;
     box-sizing: border-box;
-    width: 300px;
+    width: 50%;
     background-color: white;
     padding: 0px 48px;
     border: 5px solid maroon;
